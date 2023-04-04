@@ -6,6 +6,7 @@ Implimentation:
 An adjacency matrix was created initially, enabling the program to determine which nodes were connected. A depth-first search method was utilized, travelling down each possible route and determining their individual costs. The solution is then easily identifiable by selecting the route with the lowest cost to return.
 
 
+How To Run:
 To compile the program run
 gcc --std=gnu99 -o tsp tsp2.c -lm
 
