@@ -1,9 +1,11 @@
 Concept:
-The traveling Salesman is a shortest path optimization problem. A salesman must travel from a start location to each other city (or node) - located on a 2D plane with x-y coordinates - exactly once in the shortest path possible (lowest cost) and then return to their original position.
+The traveling Salesman is a shortest path optimization problem. A salesman must travel from a start location to each other city (or node) - located on a 2D plane 
+with x-y coordinates - exactly once in the shortest path possible (lowest cost) and then return to their original position.
 
 
 Implimentation:
-An adjacency matrix was created initially, enabling the program to determine which nodes were connected. A depth-first search method was utilized, travelling down each possible route and determining their individual costs. The solution is then easily identifiable by selecting the route with the lowest cost to return.
+An adjacency matrix was created initially, enabling the program to determine which nodes were connected. A depth-first search method was utilized, travelling down 
+each possible route and determining their individual costs. The solution is then easily identifiable by selecting the route with the lowest cost to return.
 
 
 How To Run:
